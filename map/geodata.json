@@ -1,0 +1,305 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L003",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "Text",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57042694091797,
+                    45.511924743652344
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L003",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "Text",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57034301757812,
+                    45.51209259033203
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L003",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "Text",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57040405273438,
+                    45.512020111083984
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L002",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "URL",
+                "partialPath": "",
+                "showOnCreation": true,
+                "type": "Text",
+                "showTooltip": true,
+                "tooltipTitle": "Occupancy",
+                "tooltipBody": "Waiting for data..."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57006072998047,
+                    45.51183319091797
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L002",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "URL",
+                "partialPath": "",
+                "showOnCreation": true,
+                "type": "Text",
+                "showTooltip": true,
+                "tooltipTitle": "Occupancy",
+                "tooltipBody": "Waiting for data..."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57039642333984,
+                    45.51188659667969
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L002",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "URL",
+                "partialPath": "",
+                "showOnCreation": true,
+                "type": "Text",
+                "showTooltip": true,
+                "tooltipTitle": "Occupancy",
+                "tooltipBody": "Waiting for data..."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57035064697266,
+                    45.512001037597656
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L001",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Question",
+                "showOnCreation": true,
+                "type": "Icon",
+                "showToolTip": true,
+                "tooltipTitle": "Present here:",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.570068359375,
+                    45.511898040771484
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L001",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Question",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": true,
+                "tooltipTitle": "Present here:",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57040405273438,
+                    45.51189041137695
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L001",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Question",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": true,
+                "tooltipTitle": "Present here:",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57023620605469,
+                    45.51198196411133
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L004",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "Text",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57024383544922,
+                    45.51201629638672
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L004",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "Text",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57038116455078,
+                    45.51192092895508
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L004",
+                "label": "",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "Text",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57001495361328,
+                    45.511932373046875
+                ]
+            },
+            "user_properties": {}
+        }
+    ]
+}
