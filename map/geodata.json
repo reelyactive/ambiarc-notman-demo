@@ -5,223 +5,23 @@
             "type": "Feature",
             "properties": {
                 "buildingId": "B00001",
-                "floorId": "L003",
-                "label": "",
+                "floorId": "L004",
+                "label": "Vers Clark",
                 "fontSize": 26,
                 "category": "Label",
                 "location": "Default",
-                "partialPath": "Star",
-                "showOnCreation": true,
-                "type": "Text",
-                "showToolTip": false,
-                "tooltipTitle": "",
-                "tooltipBody": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57042694091797,
-                    45.511924743652344
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L003",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "Default",
-                "partialPath": "Star",
-                "showOnCreation": true,
-                "type": "Text",
-                "showToolTip": false,
-                "tooltipTitle": "",
-                "tooltipBody": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57034301757812,
-                    45.51209259033203
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L003",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "Default",
-                "partialPath": "Star",
-                "showOnCreation": true,
-                "type": "Text",
-                "showToolTip": false,
-                "tooltipTitle": "",
-                "tooltipBody": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57040405273438,
-                    45.512020111083984
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L002",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "URL",
-                "partialPath": "",
-                "showOnCreation": true,
-                "type": "Text",
-                "showTooltip": true,
-                "tooltipTitle": "Occupancy",
-                "tooltipBody": "Waiting for data..."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57006072998047,
-                    45.51183319091797
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L002",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "URL",
-                "partialPath": "",
-                "showOnCreation": true,
-                "type": "Text",
-                "showTooltip": true,
-                "tooltipTitle": "Occupancy",
-                "tooltipBody": "Waiting for data..."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57039642333984,
-                    45.51188659667969
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L002",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "URL",
-                "partialPath": "",
-                "showOnCreation": true,
-                "type": "Text",
-                "showTooltip": true,
-                "tooltipTitle": "Occupancy",
-                "tooltipBody": "Waiting for data..."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57035064697266,
-                    45.512001037597656
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L001",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "Default",
-                "partialPath": "Question",
-                "showOnCreation": true,
-                "type": "Icon",
-                "showToolTip": true,
-                "tooltipTitle": "Present here:",
-                "tooltipBody": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.570068359375,
-                    45.511898040771484
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L001",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "Default",
-                "partialPath": "Question",
+                "partialPath": "Entrance",
                 "showOnCreation": true,
                 "type": "IconWithText",
-                "showToolTip": true,
-                "tooltipTitle": "Present here:",
+                "showToolTip": false,
+                "tooltipTitle": "",
                 "tooltipBody": ""
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.57040405273438,
-                    45.51189041137695
-                ]
-            },
-            "user_properties": {}
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "buildingId": "B00001",
-                "floorId": "L001",
-                "label": "",
-                "fontSize": 26,
-                "category": "Label",
-                "location": "Default",
-                "partialPath": "Question",
-                "showOnCreation": true,
-                "type": "IconWithText",
-                "showToolTip": true,
-                "tooltipTitle": "Present here:",
-                "tooltipBody": ""
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -73.57023620605469,
-                    45.51198196411133
+                    -73.57017517089844,
+                    45.511966705322266
                 ]
             },
             "user_properties": {}
@@ -231,13 +31,13 @@
             "properties": {
                 "buildingId": "B00001",
                 "floorId": "L004",
-                "label": "",
+                "label": "Étage SS",
                 "fontSize": 26,
                 "category": "Label",
                 "location": "Default",
-                "partialPath": "Star",
+                "partialPath": "Stairs",
                 "showOnCreation": true,
-                "type": "Text",
+                "type": "IconWithText",
                 "showToolTip": false,
                 "tooltipTitle": "",
                 "tooltipBody": ""
@@ -245,8 +45,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.57024383544922,
-                    45.51201629638672
+                    -73.5704116821289,
+                    45.51201248168945
                 ]
             },
             "user_properties": {}
@@ -255,14 +55,14 @@
             "type": "Feature",
             "properties": {
                 "buildingId": "B00001",
-                "floorId": "L004",
-                "label": "",
+                "floorId": "L003",
+                "label": "Étage 03",
                 "fontSize": 26,
                 "category": "Label",
                 "location": "Default",
-                "partialPath": "Star",
+                "partialPath": "Stairs",
                 "showOnCreation": true,
-                "type": "Text",
+                "type": "IconWithText",
                 "showToolTip": false,
                 "tooltipTitle": "",
                 "tooltipBody": ""
@@ -270,7 +70,32 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.57038116455078,
+                    -73.57041931152344,
+                    45.51201248168945
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L003",
+                "label": "St-Urbain",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Star",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57041931152344,
                     45.51192092895508
                 ]
             },
@@ -280,14 +105,14 @@
             "type": "Feature",
             "properties": {
                 "buildingId": "B00001",
-                "floorId": "L004",
-                "label": "",
+                "floorId": "L003",
+                "label": "Clark",
                 "fontSize": 26,
                 "category": "Label",
                 "location": "Default",
                 "partialPath": "Star",
                 "showOnCreation": true,
-                "type": "Text",
+                "type": "IconWithText",
                 "showToolTip": false,
                 "tooltipTitle": "",
                 "tooltipBody": ""
@@ -295,8 +120,133 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -73.57001495361328,
-                    45.511932373046875
+                    -73.57034301757812,
+                    45.5120964050293
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L001",
+                "label": "Étage 01",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Stairs",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.5704345703125,
+                    45.51201629638672
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L001",
+                "label": "Vers Sherbrooke",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Entrance",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.56993103027344,
+                    45.511905670166016
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L002",
+                "label": "Étage 02",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Stairs",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57042694091797,
+                    45.51200866699219
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L004",
+                "label": "Café",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Food",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57027435302734,
+                    45.512020111083984
+                ]
+            },
+            "user_properties": {}
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "buildingId": "B00001",
+                "floorId": "L004",
+                "label": "Terrasse",
+                "fontSize": 26,
+                "category": "Label",
+                "location": "Default",
+                "partialPath": "Table",
+                "showOnCreation": true,
+                "type": "IconWithText",
+                "showToolTip": false,
+                "tooltipTitle": "",
+                "tooltipBody": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.57027435302734,
+                    45.511871337890625
                 ]
             },
             "user_properties": {}

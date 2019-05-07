@@ -10,6 +10,15 @@ input {
     height: 25px;
 }
 
+.form-control {
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.btn {
+    font-size: 1.1rem;
+}
+
 input[type='checkbox'] {
     height: auto!important;
 }

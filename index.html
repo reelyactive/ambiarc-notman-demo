@@ -1,97 +1,53 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title> discover-ambiarc </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Pareto embedded app highlighting integration with the Ambiarc 3D mapping platform.">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/fa-solid.css">
-    <link rel="stylesheet" href="css/pareto-apps.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/overlays.css">
+    <title>Maison Notman House</title>
     <script type="text/javascript" src="js/config.js"></script>
-    <script type="text/javascript" src="js/angular.min.js"></script>
-    <script type="text/javascript" src="js/socket.io.slim.js"></script>
-    <script type="text/javascript" src="js/beaver.js"></script>
-    <script type="text/javascript" src="js/cormorant.js"></script>
-    <script type="text/javascript" src="TemplateData/js/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="js/ambiarc.service.js"></script>
-    <script type="text/javascript" src="js/examples.js"></script>
-    <script type="text/javascript" src="js/discover-ambiarc.js"></script>
+    <script src="./TemplateData/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
   </head>
-  <body ng-app="discover-ambiarc" style="pointer-events: none">
-    <div ng-controller="MapCtrl">
-      <div class="container-fluid" style="z-index:100; pointer-events: all">
-        <form class="form-inline" ng-if="mapLoaded">
-          <label for="firstButton">Select a mode: &nbsp;</label>
-          <button ng-class="isHeatmap ? 'btn btn-warning' : 'btn btn-default'"
-                  ng-click="showHeatmap()" id="firstButton"> Heatmap </button>
-          <button ng-class="isOccupancy ? 'btn btn-warning' : 'btn btn-default'"
-                  ng-click="showOccupancy()"> Occupancy </button>
-          <button ng-class="isPeopleAssets ? 'btn btn-warning' : 'btn btn-default'"
-                  ng-click="showPeopleAssets()"> People/Assets </button>
-          <button ng-class="isTracking ? 'btn btn-warning' : 'btn btn-default'"
-                  ng-click="showTracking()"> Tracking </button>
-          <select class="form-control" id="trackSelector"
-                  ng-model="trackedDevice" ng-disabled="!isTracking"
-                  ng-change="updateTrackedDevice(trackedDevice)"
-                  ng-options="device.name for device in trackedDevices">
-          </select>
-          <a href="https://reelyactive.github.io/pareto-docs/embeddedapps/discoverambiarc/"
-             target="_blank" class="pull-right btn btn-info"> 
-            <span class="fas fa-question"></span>
-          </a>
-        </form>
-        <hr>
-      </div>
+  <body style="pointer-events: none">
 
-      <div id="overlay-section" ng-show="showBubble">
-        <ul>
-          <li>
-            <div class="overlay-img">
-              <img ng-src="{{bubbleImage}}"
-                   class="img-responsive img-circle center-block">
+    <!--Navigation section-->
+    <div id="navigation" hidden>
+      <div class="container-fluid" style="z-index:100;">
+        <div id="status_bar_container">
+          <div id="status_bar_content"> Select a floor </div>
+          <div class="separate-block buttons_row">
+            <div class="col-sm-6 floor_select_btn map_view">Floor:</div>
+            <div class="col-sm-6 floor_select_btn select_wrapper"
+                 style="pointer-events: all">
+              <select id="bldg-floor-select"></select>
             </div>
-          </li>
-          <li>
-            <div class="overlay-title"> {{bubbleTitle}} </div>
-          </li>
-          <li>
-            <div class="overlay-subtitle"> {{bubbleSubtitle}} </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
 
     <!--Map section-->
     <div>
       <iframe src="./map.html" id="ambiarcIframe"
-              style="width:100%; height:100%; border:none; top:0;
-                     z-index:-1; position:fixed; pointer-events: all;">
-        Your browser doesn't support iframes
+              style="width:100%; height:100%; border:none; top:0; z-index:-1;
+                     position:fixed; pointer-events: all;">
+                Your browser doesn't support iframes
       </iframe>
     </div>
 
-
     <!--Controls section-->
-    <div ng-controller="ControlsCtrl">
+    <div>
       <div id="controls-section" style="pointer-events: all">
         <ul>
           <li class="">
-            <div class="controls-btn ctrl-zoom-in" aria-hidden="true"
-                 ng-click="zoomIn()"></div>
+            <div id="zoom-in" class="controls-btn ctrl-zoom-in" aria-hidden="true"></div>
           </li>
           <li class="">
-            <div class="controls-btn ctrl-rotate-left" aria-hidden="true"
-                 ng-click="rotateLeft()"></div>
-            <div class="controls-btn ctrl-rotate-right" aria-hidden="true"
-                 ng-click="rotateRight()"></div>
+            <div id="rotate-left" class="controls-btn ctrl-rotate-left" aria-hidden="true"></div>
+            <div id="rotate-right" class="controls-btn ctrl-rotate-right" aria-hidden="true"></div>
           </li>
           <li class="">
-            <div class="controls-btn ctrl-zoom-out" aria-hidden="true"
-                 ng-click="zoomOut()"></div>
+            <div id="zoom-out" class="controls-btn ctrl-zoom-out" aria-hidden="true"></div>
           </li>
         </ul>
       </div>

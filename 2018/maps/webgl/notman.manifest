@@ -1,0 +1,62 @@
+ManifestFileVersion: 0
+CRC: 468557114
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a05e61c828f73a79d1cecb76a5de55e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b85bf24fe6b446da60e231ae2c4e5f04
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6a4aff50033992142bb8fb441eb7eb76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ca2cbb03edaf2234bb2782949a1468ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f55c5fa5a3c076e4a928a703f225b517, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 93f28b56abd672e4b9a23ef330e98933, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4824b49a8458259429c3455f4d8aa901, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 96cace3f7183cad4293e7d5d8b352775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e3a4a15e6fae7e94cae15381512805d2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/GeneratedMaps/Notman House/notmanhouse_build.unity
+Dependencies: []
