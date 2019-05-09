@@ -12,7 +12,7 @@ const RAINDROP_DURATION = 4;
 
 // Non-disappearance events
 beaver.on([ 0, 1, 2, 3 ], function(raddec) {
-  if(ambiarc && focusBuildingId && focusFloorId) {
+  if(ambiarc && focusBuildingId && focusFloorId && !isCameraMoving) {
     createRaindrop(raddec);
   }
 });
