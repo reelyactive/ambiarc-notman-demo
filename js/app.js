@@ -27,42 +27,42 @@ function createRaindrop(raddec) {
   switch(strongestReceiverId) {
     case '001bc509408100df':
       raddecFloorId = 'L003';
-      lat = 45.51191;
-      lon = -73.57041;
+      lat = 45.51192;
+      lon = -73.57042;
       break;
     case '001bc5094081010c':
       raddecFloorId = 'L003';
-      lat = 45.51207;
+      lat = 45.51210;
       lon = -73.57034;
       break;
     case '001bc509408100dc':
       raddecFloorId = 'L002';
-      lat = 45.51191;
-      lon = -73.57041;
+      lat = 45.51193;
+      lon = -73.57042;
       break;
     case '001bc509408100dd':
       raddecFloorId = 'L002';
-      lat = 45.51199;
+      lat = 45.51201;
       lon = -73.57038;
       break;
     case '001bc509408100de':
       raddecFloorId = 'L002';
-      lat = 45.51207;
+      lat = 45.51210;
       lon = -73.57034;
       break;
     case '001bc509408100d9':
       raddecFloorId = 'L001';
-      lat = 45.51191;
-      lon = -73.57041;
+      lat = 45.51193;
+      lon = -73.57042;
       break;
     case '001bc509408100da':
       raddecFloorId = 'L001';
-      lat = 45.51199;
+      lat = 45.51201;
       lon = -73.57038;
       break;
     case '001bc509408100db':
       raddecFloorId = 'L001';
-      lat = 45.51207;
+      lat = 45.51210;
       lon = -73.57034;
       break;
   }
