@@ -35,24 +35,21 @@ var iframeLoaded = function() {
 
 // Map loaded: complete all initialisations
 function handleMapLoaded() {
-  ambiarc.setSkyColor("#033851", "#0770a2");
-  ambiarc.setLightColor("#a0a0a0", "#a0a0a0", "#a0a0a0");
+  ambiarc.setSkyColor("#033851", "#83bbd3");
   ambiarc.setMapTheme(ambiarc.mapTheme.light);
   ambiarc.hideLoadingScreen();
-
-  let navigation = document.querySelector('#navigation');
-  navigation.removeAttribute('hidden');
 
   establishHierarchy(function(hierarchy) {
     let building = hierarchy[0];
     focusBuildingId = hierarchy[0].id;
-    let floorSelect = document.querySelector('#bldg-floor-select');
+    let floorSelect = document.querySelector('#floorSelector');
 
     building.floors.forEach(function(element, index) {
-      let option = document.createElement('option');
-      option.value = element.id;
+      let option = document.createElement('a');
+      option.value = element.id; // TODO: onClick?
       option.text = element.floorName;
-      floorSelect.add(option, null);
+      option.setAttribute('class', 'dropdown-item');
+      floorSelect.appendChild(option);
     });
 
     floorSelect.addEventListener('change', function() {
